@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Montserrat;
+    font-size: 1.198vw;
+    width: 90%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #26292B;
+}
+header{
+    /* border: 1px solid black; */
+    box-shadow: 4px 4px 1px 0px rgba(255, 255, 255, 0.4);
+    background-color: #26292B;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #FEF4F4;
+}
+h2{
+    font-size: 1.5em;
+}
+main{
+    margin-top: 5px;
+}
+h2{
+    display: inline-block;
+    color: #FEF4F4;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+tbody th{
+    padding: 36px;
+    background-color: orange;
+    border: 1px solid #FEF4F4;
+    border-radius: 3px;
+}
+tbody td{
+    padding: 18px;
+    border: 1px solid #FEF4F4;
+    border-radius: 3px;
+    color: #FEF4F4;
+}
+.daily-schedule{
+    padding:30px;
+    border: 1px solid #FEF4F4;
+    background-color: #26292B;
+    color: #FEF4F4;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width : 992px){
+    h2{
+        font-size: 2em;
+    }
+    tbody th{
+        font-size: 1.5vw;
+    }
+    tbody td{
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    tbody th{
+        font-size: 1.8vw;
+        padding: 40px 0;
+    }
+    tbody td{
+        padding: 20px 0;
+        font-size: 1.8vw;
+    }
+
+}
+@media only screen and (max-width : 600px){
+    h2{
+        font-size: 3em;
+    }
+    tbody th{
+        font-size: 2vw;
+        padding: 30px 20px;
+    }
+    tbody td{
+        padding: 20px 20px;
+        font-size: 2vw;
+    }
+    .daily-schedule{
+        padding:45px;
+    }
+    header{
+        box-shadow: 3px 3px 1px 0px rgba(255, 255, 255, 0.4);
+    }
+
+}
